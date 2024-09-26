@@ -1,1 +1,1 @@
-This a website for my tutor servces that I offer.
+This a website for my tutoring servces that I offer.
