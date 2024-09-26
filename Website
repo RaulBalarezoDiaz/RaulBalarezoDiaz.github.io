@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoring Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Excel Tutoring Services</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Unlock Your Full Potential</h2>
+        <p>Personalized tutoring in Math, Science, and English.</p>
+        <a href="#contact" class="cta-btn">Get Started</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm John Doe, a passionate educator with over 10 years of experience helping students achieve their academic goals.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <div class="service-box">
+            <h3>Math Tutoring</h3>
+            <p>From algebra to calculus, I've got you covered.</p>
+        </div>
+        <div class="service-box">
+            <h3>Science Tutoring</h3>
+            <p>Physics, Chemistry, Biology - we make them easy to understand.</p>
+        </div>
+        <div class="service-box">
+            <h3>English Tutoring</h3>
+            <p>Improve your reading, writing, and comprehension skills.</p>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <p>"John is an amazing tutor, my grades have improved significantly!" - Jane Doe</p>
+        <p>"Highly recommend! My son loves his tutoring sessions." - Mary Smith</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Excel Tutoring Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
